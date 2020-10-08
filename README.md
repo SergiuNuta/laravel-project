@@ -1,26 +1,33 @@
-CRUD Laravel project using SQLite as database
+## Table of contents
 
-<img src="images/screenshot.PNG" alt="screenshot">
+* [General info](#general-info)
+* [Technologies](#technologies)
+* [Setup](#setup)
 
-## First step
+## General info
 
-- Clone the project on your machine.
+This project is simple CRUD project using Laravel and SQLite as database.
 
-[git init]
+![Algorithm schema](./images/screenshot.PNG)
+	
+## Technologies
 
-[git clone https://github.com/SergiuNuta/laravel-project.git]
+Project is created with:
+* Laravel 8
+* SQLite
+* Composer
+* Bootstrap
+* Fontawesome
+	
+## Setup
 
+To run this project, install it locally using the following comands:
 
-## Second step
+```
+$ cd ../your-local-destination
+$ git init
+$ git clone https://github.com/SergiuNuta/laravel-project.git
+$ composer install
+$ php artisan serve
 
-On your terminal, go to parent location of the project and install composer.
-
-[composer install]
-
-## Third step
-
-Run the server
-
-[php artisan serve]
-
-
+```
