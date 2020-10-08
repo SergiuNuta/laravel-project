@@ -8,7 +8,7 @@
 
 This project is simple CRUD project using Laravel and SQLite as database.
 
-![Algorithm schema](./images/screenshot.PNG)
+![Algorithm schema](./images/capture.PNG)
 	
 ## Technologies
 
