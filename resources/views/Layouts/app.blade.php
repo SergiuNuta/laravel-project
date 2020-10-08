@@ -11,7 +11,6 @@
     <title>Laravel test</title>
     <style>
         
-
         .wrapper {
             width: 100%;
         }
