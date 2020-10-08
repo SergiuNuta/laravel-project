@@ -1,4 +1,4 @@
-<img src="images/screenshot.png">
+<img src="images/screenshot.PNG" alt="screenshot">
 
 ## About Laravel
 
