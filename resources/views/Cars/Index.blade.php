@@ -25,8 +25,7 @@
         <th>Model</th>
         <th>Colour</th>
         <th>Top Speed</th>
-        <th>Date Created</th>
-        <th width="280px">Action</th>
+        <th>Actions</th>
     </tr>
     @foreach ($cars as $car)
     <tr>
@@ -35,7 +34,6 @@
         <td>{{ $car->model }}</td>
         <td>{{ $car->colour }}</td>
         <td>{{ $car->top_speed }}</td>
-        <td>{{ date_format($car->created_at, 'jS M Y') }}</td>
         <td>
             <form action="{{ route('cars.destroy', $car->id) }}" method="POST">
 

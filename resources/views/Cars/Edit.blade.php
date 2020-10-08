@@ -14,7 +14,7 @@
 
 @if ($errors->any())
 <div class="alert alert-danger">
-    <strong>Whoops!</strong> Call the priest!<br><br>
+    <strong>Whoops!</strong> Call the Priest!<br><br>
     <ul>
         @foreach ($errors->all() as $error)
         <li>{{ $error }}</li>
@@ -49,7 +49,7 @@
         <div class="col-xs-12 col-sm-12 col-md-12">
             <div class="form-group">
                 <strong>Top speed:</strong>
-                <input type="number" name="top_speed" class="form-control" placeholder="Top speed" value="{{ $car->top_speed }}">
+                <input type="text" name="top_speed" class="form-control" placeholder="Top speed" value="{{ $car->top_speed }}">
             </div>
         </div>
         <div class="col-xs-12 col-sm-12 col-md-12 text-center">
